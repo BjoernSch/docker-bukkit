@@ -1,6 +1,6 @@
 ### Supported tags and respective `Dockerfile` links
 
-[![Build Status](https://api.travis-ci.org/bbriggs/docker-bukkit.svg?branch=master)](https://travis-ci.org/bbriggs/docker-bukkit)
+[![Build Status](https://api.travis-ci.org/BjoernSch/docker-bukkit.svg?branch=master)](https://travis-ci.org/BjoernSch/docker-bukkit)
 
 # Simple Tags
 | Tag      | Notes |
