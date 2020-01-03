@@ -54,7 +54,7 @@ Yes, even though the repo's name is `bukkit`, we have included the lovely spigot
 
 You can bring your own existing data + configuration and mount it to the `/data` directory when starting the container by using the `-v` option. You may also pass configuration options as environment variables like so:
 
-`docker run -it -e DIFFICULTY=2 -e MOTD="A non-standard message" -e SPAWN_ANIMALS=false bbriggs/bukkit`
+`docker run -it -e DIFFICULTY=2 -e MOTD="A non-standard message" -e SPAWN_ANIMALS=false bjoernsch/bukkit`
 
 This container will only attempt generate a `server.properties` file if one does not already exist. If you would like to use the configuration tool, be sure that you are not providing a configuration file or that you also set `FORCE_CONFIG=true` in the environment variables.
 
@@ -70,7 +70,7 @@ level-seed=123456789
 EULA=true
 ```
 
-`docker run -d -it --env-file env.list -v $(pwd)/data:/data -p 25565:25565 bbriggs/bukkit`
+`docker run -d -it --env-file env.list -v $(pwd)/data:/data -p 25565:25565 bjoernsch/bukkit`
 
 #### List of Environment Variables
 
