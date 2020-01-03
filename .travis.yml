@@ -6,29 +6,28 @@ services:
  - docker
 
 env:
-  - TAG=1.8
-  - TAG=1.8.3
-# - TAG=1.8.7
-  - TAG=1.8.8
-  - TAG=1.9
-  - TAG=1.9.2
-  - TAG=1.9.4
-  - TAG=1.10.2
-  - TAG=1.11
-  - TAG=1.12
-  - TAG=1.12.1
-  - TAG=1.12.2
-  - TAG=1.13.1
-  - TAG=1.13.2
-  - TAG=1.14 DOCKERFILE=Dockerfile-1.14
-  - TAG=1.14.1 DOCKERFILE=Dockerfile-1.14
-  - TAG=1.14.2 DOCKERFILE=Dockerfile-1.14
-  - TAG=1.14.3 DOCKERFILE=Dockerfile-1.14
-  - TAG=1.14.4 DOCKERFILE=Dockerfile-1.14
-  - TAG=1.15 DOCKERFILE=Dockerfile-1.14
-  - TAG=1.15.1 DOCKERFILE=Dockerfile-1.14
-  - TAG=latest DOCKERFILE=Dockerfile-1.14
-
+  - TAG=1.8 DOCKERFILE=Dockerfile-pre1.14
+  - TAG=1.8.3 DOCKERFILE=Dockerfile-pre1.14
+# - TAG=1.8.7 DOCKERFILE=Dockerfile-pre1.14
+  - TAG=1.8.8 DOCKERFILE=Dockerfile-pre1.14
+  - TAG=1.9 DOCKERFILE=Dockerfile-pre1.14
+  - TAG=1.9.2 DOCKERFILE=Dockerfile-pre1.14
+  - TAG=1.9.4 DOCKERFILE=Dockerfile-pre1.14
+  - TAG=1.10.2 DOCKERFILE=Dockerfile-pre1.14
+  - TAG=1.11 DOCKERFILE=Dockerfile-pre1.14
+  - TAG=1.12 DOCKERFILE=Dockerfile-pre1.14
+  - TAG=1.12.1 DOCKERFILE=Dockerfile-pre1.14
+  - TAG=1.12.2 DOCKERFILE=Dockerfile-pre1.14
+  - TAG=1.13.1 DOCKERFILE=Dockerfile-pre1.14
+  - TAG=1.13.2 DOCKERFILE=Dockerfile-pre1.14
+  - TAG=1.14
+  - TAG=1.14.1
+  - TAG=1.14.2
+  - TAG=1.14.3
+  - TAG=1.14.4
+  - TAG=1.15
+  - TAG=1.15.1
+  - TAG=latest
 install:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
 
