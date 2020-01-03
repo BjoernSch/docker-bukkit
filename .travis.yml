@@ -25,7 +25,9 @@ env:
   - TAG=1.14.2 DOCKERFILE=Dockerfile-1.14
   - TAG=1.14.3 DOCKERFILE=Dockerfile-1.14
   - TAG=1.14.4 DOCKERFILE=Dockerfile-1.14
-  - TAG=latest
+  - TAG=1.15 DOCKERFILE=Dockerfile-1.14
+  - TAG=1.15.1 DOCKERFILE=Dockerfile-1.14
+  - TAG=latest DOCKERFILE=Dockerfile-1.14
 
 install:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
