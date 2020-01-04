@@ -44,7 +44,7 @@ class Config:
             "spawn-monsters": os.getenv("SPAWN_MONSTERS", "true"),
             "view-distance": os.getenv("VIEW_DISTANCE", 10),
             "generate-structures": os.getenv("GENERATE_STRUCTURES", "true"),
-            "motd": os.getenv("MOTD", "A Minecraft server powered by Docker (image: bbriggs/bukkit)")
+            "motd": os.getenv("MOTD", "A Minecraft server (SpigotMc) powered by Docker (image: bjoernsch/spigot)")
         }
         return props
 
