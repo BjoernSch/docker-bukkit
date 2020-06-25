@@ -12,8 +12,9 @@
 | `1.14.4` |       |
 | `1.15`   |       |
 | `1.15.1` |       |
-| `1.15.2` | Latest version |
-| `latest` | Build the latest Spigot jar (1.15.2 at the time of this writing) |
+| `1.15.2` |       |
+| `1.16.1` | Latest version |
+| `latest` | Build the latest Spigot jar (1.16.1 at the time of this writing) |
 
 # Docker Bukkit
 
