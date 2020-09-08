@@ -29,8 +29,9 @@ env:
   - TAG=1.15.1
   - TAG=1.15.2
   - TAG=1.16.1
+  - TAG=1.16.2
   - TAG=latest
-
+  
 install:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
 
