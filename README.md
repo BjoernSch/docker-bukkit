@@ -14,7 +14,9 @@
 | `1.15.1` |       |
 | `1.15.2` |       |
 | `1.16.1` |       |
-| `1.16.2` | Latest version |
+| `1.16.2` |       |
+| `1.16.3` |       |
+| `1.16.4` | Latest version |
 | `latest` | Build the "latest" Spigot jar, not always really the latest |
 
 # Docker Bukkit
