@@ -15,7 +15,8 @@
 #     with this program; if not, write to the Free Software Foundation, Inc.,
 #     51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
-FROM openjdk:8-alpine as builder
+ARG JAVA_VERSION=16
+FROM openjdk:${JAVA_VERSION}-alpine as builder
 ARG BUKKIT_VERSION=latest
 LABEL stage=builder
 LABEL build=$BUILD_ID
