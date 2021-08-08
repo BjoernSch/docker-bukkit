@@ -4,7 +4,7 @@ set -xe
 
 # Build
 if [[ -z "$DOCKERFILE" ]]; then
-	docker build --build-arg BUKKIT_VERSION=$TAG -t bjoernsch/spigot:$TAG .
+	docker build --build-arg BUKKIT_VERSION=$TAG JAVA_VERSION=$JAVA_VERSION -t bjoernsch/spigot:$TAG .
 else
 	docker build -f $DOCKERFILE --build-arg BUKKIT_VERSION=$TAG JAVA_VERSION=$JAVA_VERSION -t bjoernsch/spigot:$TAG .
 fi
