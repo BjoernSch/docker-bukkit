@@ -33,6 +33,8 @@ env:
   - TAG=1.16.3
   - TAG=1.16.4
   - TAG=1.16.5
+  - TAG=1.17
+  - TAG=1.17.1  
   - TAG=latest
   
 install:
